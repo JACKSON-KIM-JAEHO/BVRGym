@@ -1,0 +1,14 @@
+<fdm_config>
+  <output name="flightgear" type="FLIGHTGEAR">
+    <node>fcs/</node>
+    <node>position/</node>
+    <node>velocities/</node>
+    <node>orientation/</node>
+    <node>accelerations/</node>
+    <node>propulsion/</node>
+    <node>gear/</node>
+    <protocol>udp</protocol>
+    <port>5550</port> <!-- blue는 5550 -->
+    <rate>60</rate>
+  </output>
+</fdm_config>
